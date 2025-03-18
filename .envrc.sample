@@ -1,0 +1,2 @@
+export JWT_SECRET=
+export DB_DSN=
