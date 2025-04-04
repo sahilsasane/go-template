@@ -21,7 +21,9 @@ confirm:
 ## run/api: run the cmd/api application
 .PHONY: run/api
 run/api:
-	go run ./cmd/api -db-dsn=${DB_DSN} -jwt-secret=${JWT_SECRET}
+	go run ./cmd/api \
+			-db-dsn="${DB_DSN}" \
+			-jwt-secret="${JWT_SECRET}"
 
 ## db/psql: connect to the database using psql
 .PHONY: db/psql

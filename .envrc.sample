@@ -1,2 +1,2 @@
-export JWT_SECRET=
-export DB_DSN=
+export JWT_SECRET=kYdLHTQX9pLNTbHJkCh5O0zSZXcCeHEuOp5u4FbDYzU=
+export DB_DSN="postgres://metaverse:metaverse@localhost:5432/metaverse?sslmode=disable"
